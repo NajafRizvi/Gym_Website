@@ -1,0 +1,46 @@
+/* --------Testimonials Strat----------- */
+.main-section{
+    height: 600px;
+    background-color:black;
+  }
+  .row{
+    padding-top: 60px;
+  }
+  .first-col img{
+    width: 100px;
+    height: 100px;
+  }
+  .main-section h1{
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+  }
+  .main-section h2{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+  }
+  @media only screen and (min-width: 200px) and (max-width: 800px){
+  .main-section{
+    height: 1000px;
+    background-color: black;
+  }
+  .main-section h2,p{
+    text-align: center;
+  }
+  .main-section img{
+    margin: 0 auto;
+    display: block;
+  }
+  .aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+  
+  }
+  /* -------------Testimonial section End------------------ */
